@@ -12,8 +12,9 @@ import javax.ws.rs.Produces;
 import com.qa.persistence.business.ClassroomBusiness;
 
 
+
 @Path("/classroom")
-//class i want to activate
+
 public class ClassroomEndPoint {
 	
 	@Inject

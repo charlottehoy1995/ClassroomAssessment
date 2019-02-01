@@ -23,7 +23,7 @@ public class TraineeDBRepository implements TraineeRepository {
 	private JSONUtil json;
 
 	public String getAllTrainees() {
-		Query allTrainees = em.createQuery("Select a FROM Trainees a");
+		Query allTrainees = em.createQuery("SELECT a FROM Trainee a");
 		return json.getJSONForObject(allTrainees.getResultList());		
 	}	
 

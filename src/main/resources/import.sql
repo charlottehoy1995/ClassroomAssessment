@@ -1,0 +1,6 @@
+INSERT INTO CLASSROOM (trainerFName, trainerLName) VALUES ('John', 'Doe')
+INSERT INTO CLASSROOM (trainerFName, trainerLName) VALUES ('Tom', 'Smith')
+INSERT INTO CLASSROOM (trainerFName, trainerLName) VALUES ('Gemma', 'Taylor')
+INSERT INTO TRAINEE (firstName, lastName) VALUES ('Ryan', 'Newton')
+INSERT INTO TRAINEE (firstName, lastName) VALUES ('Harry', 'Thompson')
+INSERT INTO TRAINEE (firstName, lastName) VALUES ('Sophie', 'Attwell')

@@ -8,7 +8,7 @@ import javax.persistence.Id;
 @Entity
 public class Classroom {
 	 
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Id
 	private Long classId;
 	private String trainerFName;
