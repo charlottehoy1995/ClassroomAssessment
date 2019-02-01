@@ -11,16 +11,17 @@ public class Trainee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
 	private Long traineeId;
+	private Long classId;
 	private String firstName;
 	private String lastName;
 
 	public Trainee() {
 	}
 
-	public Trainee(String firstName, String lastName) {
+	public Trainee(String firstName, String lastName, Long classId) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-
+		this.classId = classId;
 	}
 
 	public Long getTraineeId() {
