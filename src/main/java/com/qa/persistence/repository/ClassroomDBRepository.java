@@ -9,9 +9,8 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.transaction.Transactional;
 
-import com.qa.persistance.domain.Classroom;
-import com.qa.persistance.util.JSONUtil;
-import com.qa.persistence.domain.Account;
+import com.qa.persistence.domain.Classroom;
+import com.qa.persistence.util.JSONUtil;
 
 
 @Transactional(SUPPORTS)
